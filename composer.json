@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ajaxnewsletter",
+    "description": "Ajax Newsletter Magento 2 extension helps your customer/visitors to subscribe newsletter on site without page refresh.",
+    "type": "magento2-module",
+    "version": "1.0.5",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\AjaxNewsletter\\": ""
+        }
+    }
+}
